@@ -36,9 +36,6 @@ Contributions are welcome! To contribute to the project, follow these steps:
 3. Make your changes and commit them.
 4. Submit a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ## Support
-If you have any questions or issues, feel free to open an issue on the GitHub repository or reach out via email at YOUR_EMAIL_ADDRESS.
+If you have any questions or issues, feel free to open an issue on the GitHub repository or reach out via email at pandeytanishk@gmail.com.
 
