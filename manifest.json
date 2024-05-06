@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Clipster",
+    "version": "1.0",
+    "description": "A simple notes manager with copy, add, update, and delete functionality.",
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

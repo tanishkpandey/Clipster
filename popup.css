@@ -1,0 +1,131 @@
+/* popup.css */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Holtwood+One+SC&display=swap");
+
+body {
+  padding: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-family: "Holtwood One SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #191919;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header img {
+  height: 40px;
+  margin-top: 5px;
+}
+.clip {
+  font-size: 2rem;
+}
+
+#notes-container{
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+}
+
+button {
+  margin-top: 5px;
+}
+
+.text-area {
+  color: #191919;
+  height: 80px;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.5em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px, 1px 1px 0px 0px,
+    5px 5px 0px 0px;
+}
+
+.button-54 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  margin-left: 3.5rem;
+  font-style: normal;
+  width: 200px;
+  margin-bottom: 3rem;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #191919;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    3px 3px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.note-container{
+    padding: 5px;
+    margin: 5px 0;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    border: 2px solid;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+      2px 2px 0px 0px;
+}
+.note {
+  padding: 5px;
+  height: 40px;
+  overflow-y: hidden;
+  margin: 10px 0;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.note-buttons button{
+    text-align: right;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #191919;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 2px 2px 0px 0px, 2px 2px 0px 0px,
+      2px 2px 0px 0px;
+    margin-right: 0.3rem;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+.note-buttons button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+  font-family: "Fira Sans", sans-serif;
+}
